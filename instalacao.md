@@ -52,8 +52,6 @@ choco install composer --version 6.3.0 -y
 ![image](https://github.com/Juscostajr/poo-turma-2024/assets/23126266/60cf663b-8261-4cdf-8152-ffcf2f4935dc)
 
 ## Instalação do Visual Studio Code
-Com o PowerShell aberto como administrador, cole o seguinte comando:
-```
-choco install vscode -y
-```
-![image](https://github.com/Juscostajr/poo-turma-2024/assets/23126266/d21723e8-e72c-454f-a7e5-600655b56b4d)
+O Visual Studio Code fica disponível para instalação pela Microsoft Store.
+![image](https://github.com/Juscostajr/poo-turma-2024/assets/23126266/4be43f2e-ec53-4000-8429-dc4b62988631)
+
