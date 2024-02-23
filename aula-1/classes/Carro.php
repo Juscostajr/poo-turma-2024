@@ -4,7 +4,7 @@ class Carro
     public string $nome;
     public string $modelo;
     public string $cor;
-    public float $velocidadeAtual;
+    private float $velocidadeAtual;
 
     public function __construct() {
         $this->velocidadeAtual = 0;
@@ -17,9 +17,11 @@ class Carro
 
     public function frear(): void
     { 
-        $this->velocidadeAtual = 
-            $this->velocidadeAtual < 10 
-                ? 0 
-                : $this->velocidadeAtual - 10;
+        if ($this->velocidadeAtual > 0) $this->velocidadeAtual -= 10;
+    }
+
+    public function getVelocidadeAtual(): float
+    {
+        return $this->velocidadeAtual;
     }
 }
