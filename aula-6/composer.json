@@ -1,0 +1,16 @@
+{
+    "name": "juscejr/aula-6",
+    "description": "Projeto da aula 6",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Juscejr\\Aula6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juscelino Fernandes da Costa Junior"
+        }
+    ],
+    "require": {}
+}
