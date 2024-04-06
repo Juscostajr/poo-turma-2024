@@ -32,4 +32,9 @@ class Pessoa
     {
         return $this->email;
     }
+
+    public function trabalhar(): string
+    {
+        return 'A Pessoa trabalha';
+    }
 }

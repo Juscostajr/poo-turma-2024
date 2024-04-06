@@ -39,4 +39,9 @@ class Tripulante extends Pessoa
     {
         $this->alcunha = $alcunha;
     }
+
+    public function trabalhar(): string
+    {
+        return 'O Tripulante trabalha no vôo';
+    }
 }

@@ -52,4 +52,9 @@ class Comissario extends Tripulante
     {
         $this->anosExperiencia = $anosExperiencia;
     }
+
+    public function trabalhar(): string
+    {
+        return 'O comissário serve';
+    }
 }

@@ -40,4 +40,24 @@ echo $passagem
     ->getPassageiro()
     ->getNome();
 
-    
+$comissario = new Comissario(
+    true,
+    10,
+    8000,
+    'Sra. Patrícia',
+    'Patricia Abravanel',
+    'patricia@bol.com.br'
+);
+
+$piloto = new Piloto(
+    10000,
+    TipoAeronave::JATO_GRANDE_PORTE,
+    new Cidade('Campo Mourão')
+);
+
+
+echo "\nPOLIMORFISMO:\n";
+echo $pessoa->trabalhar() . "\n";
+echo $tripulante->trabalhar() . "\n";
+echo $comissario->trabalhar() . "\n";
+echo $piloto->trabalhar() . "\n";
